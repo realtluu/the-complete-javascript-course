@@ -29,3 +29,11 @@ let job2 = "teacher";
 
 console.log(myFirstJob);
 
+// Assignment
+let country = 'VN';
+let continent = 'ASIA';
+let population = 95.5;
+
+console.log(country);
+console.log(continent);
+console.log(population);
