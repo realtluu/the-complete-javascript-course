@@ -111,10 +111,30 @@ console.log(age1, age2);
 // const isFullAge =  age2 >= 10;
 // console.log(now - 1991 > now - 2020);
 
-console.log(25-10-5);
-let x, y;
-x = y = 25 - 10 - 5;
-console.log(x, y);
+// console.log(25-10-5);
+// let x, y;
+// x = y = 25 - 10 - 5;
+// console.log(x, y);
 
-const averageAge = (age1 + age2)/2;
-console.log(age1, age2, averageAge);
+// const averageAge = (age1 + age2)/2;
+// console.log(age1, age2, averageAge);
+
+
+////////////////////////////////////
+// Codeing Challenge #1
+
+const massMark = 78;
+const heightMark = 1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+
+const BMIMark = massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+
+
