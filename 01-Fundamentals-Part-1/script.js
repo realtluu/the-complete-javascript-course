@@ -86,10 +86,10 @@ console.log(lastName);
 ////////////////////////////////////
 // basic operations
 
-const now = 2021;
-const age1 = now - 1991;
-const age2 = now - 2020;
-console.log(age1, age2);
+// const now = 2021;
+// const age1 = now - 1991;
+// const age2 = now - 2020;
+// console.log(age1, age2);
 
 // console.log(age1 * 3,  age2 / 5, 3**2);
 
@@ -123,18 +123,34 @@ console.log(age1, age2);
 ////////////////////////////////////
 // Codeing Challenge #1
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
 
-const BMIMark = massMark / heightMark ** 2;
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-const markHigherBMI = BMIMark > BMIJohn;
+// console.log(BMIMark, BMIJohn, markHigherBMI);
 
-console.log(BMIMark, BMIJohn, markHigherBMI);
+// const firstName = 'tluu';
+// const job = 'ds';
+// const birthYear = 1990;
+// const year = 2022;
 
+// const tluu = "I'm " + firstName + ', a ' + (year - birthYear) + ' year old ' + job + '!';
+// console.log(tluu);
 
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew);
 
+// console.log(`Just a regular string...`);
 
+// console.log('String with \n\
+// multiple \n\
+// lines');
+
+// console.log(`String
+// multiple
+// lines`);
